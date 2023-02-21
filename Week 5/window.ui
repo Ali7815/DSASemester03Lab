@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1090</width>
+    <height>934</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/newPrefix/background.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1131</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/header.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>170</y>
+      <width>911</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/headerb.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>440</y>
+      <width>821</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/challan.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>500</y>
+      <width>821</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QComboBox" name="cmbDistrict">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#cmbDistrict{
+border: 1px solid #white;
+border-raduis : 4px;
+padding-left : 10px;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select District</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Attock</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bawalnagar</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bahawalpur</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bakhar</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chakwal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cheniot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Faisalabad</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lahore</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lodhran</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mianwali</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Multan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sargodha</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>180</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>For Sale Deed please use Conveyance</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>40</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tehsil</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>District</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>120</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Deed Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Stamp Paper Type</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>120</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/newPrefix/book.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmbTehsil">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>70</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#cmbTehsil{
+border: 1px solid #white  ;
+border-raduis : 4px;
+padding-left : 10px
+
+}
+
+
+
+
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bahawalnagar Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chishtian Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ahmadpur East Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Khairpur Tamewali Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Khanpur Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Alipur Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Jampur Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Faisalabad City Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kamalia Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Rawalpindi Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sillanwali Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Isakhel Tehsil</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mianwali Tehsil</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="cmbStampPaperType">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#cmbStampPaperType{
+border: 1px solid #white  ;
+border-raduis : 4px;
+padding-left : 10px
+
+}
+
+
+
+
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Judicial</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Judicial</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="cmbDeed">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>150</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#cmbDeed{
+border: 1px solid #white  ;
+border-raduis : 4px;
+padding-left : 10px
+
+}
+
+
+
+
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Court Fee</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Contract Fee</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

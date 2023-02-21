@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>741</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F5F5F5;</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Add Second Party</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>721</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>321</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QTextEdit" name="txtName1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:black;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Name</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="txtContact1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:black;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Contact No</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="txtAddress1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>180</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:black;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Address</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="cmbKin1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>80</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>D/O</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>F/O</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>GUARDIAN</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>H/O</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>S/O</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>M/O</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reprenstive Form</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>W/O</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QCheckBox" name="chkBoxFirstPartyForm1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>240</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">height:100px;</string>
+        </property>
+        <property name="text">
+         <string>Use this First Party in the form</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="chkBoxPowerAttorney1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>280</y>
+          <width>301</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Throught Power Of Attorney</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>10</y>
+         <width>361</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QTextEdit" name="txtCNIC1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid gray;
+color:black;
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>CNIC</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="txtRelation1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:black;
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>Relation</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="txtEmail1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:black;
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>Email</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnCancel1">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>360</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#80CBC4;
+border:none;
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>CANCEL</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>52</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="autoDefault">
+         <bool>true</bool>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnAdd1">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>360</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#81C784;
+border:none;
+color:white;
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>ADD</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

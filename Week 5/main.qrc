@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>book.png</file>
+    <file>arrow.png</file>
+    <file>background.png</file>
+    <file>challan.png</file>
+    <file>header.png</file>
+    <file>backColor.jpg</file>
+    <file>headerb.png</file>
+    <file>Logo.png</file>
+  </qresource>
+</RCC>

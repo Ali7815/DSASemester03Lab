@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>../../../secondParty.png</file>
+    <file>../../../Screenshot 2022-10-07 150139.png</file>
+    <file>estamping.png</file>
+    <file>agent.png</file>
+  </qresource>
+  <qresource prefix="think">
+    <file>download.png</file>
+  </qresource>
+  <qresource prefix="footer">
+    <file>footer.png</file>
+  </qresource>
+  <qresource prefix="plus">
+    <file>images.png</file>
+  </qresource>
+  <qresource prefix="users">
+    <file>users.png</file>
+  </qresource>
+  <qresource prefix="challan">
+    <file>challan.png</file>
+    <file>Screenshot 2022-10-07 011803ss.png</file>
+  </qresource>
+</RCC>

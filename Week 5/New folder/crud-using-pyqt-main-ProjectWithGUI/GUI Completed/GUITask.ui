@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1198</width>
+    <height>957</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F6F6F6;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-8</y>
+         <width>1153</width>
+         <height>1812</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_2">
+          <property name="minimumSize">
+           <size>
+            <width>600</width>
+            <height>1790</height>
+           </size>
+          </property>
+          <property name="mouseTracking">
+           <bool>true</bool>
+          </property>
+          <property name="tabletTracking">
+           <bool>true</bool>
+          </property>
+          <property name="acceptDrops">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#F6F6F6;</string>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1129</width>
+             <height>1788</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_4">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>1121</width>
+              <height>141</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/logos/estamping.png);
+border-radius : 8px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_23">
+            <property name="geometry">
+             <rect>
+              <x>180</x>
+              <y>150</y>
+              <width>701</width>
+              <height>131</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/challan/Screenshot 2022-10-07 011803ss.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QFrame" name="prove">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>1100</y>
+              <width>721</width>
+              <height>173</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:white;
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QFrame" name="label3">
+               <property name="styleSheet">
+                <string notr="true">background-color:#EEEEEE;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QFrame" name="frame_5">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>291</width>
+                  <height>58</height>
+                 </rect>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <widget class="QPushButton" name="pushButton_5">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>71</width>
+                   <height>51</height>
+                  </rect>
+                 </property>
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="icons.qrc">
+                   <normaloff>:/think/download.png</normaloff>:/think/download.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>50</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="instruction3">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QLabel" name="label_3">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>10</y>
+                  <width>271</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>Retype the code from the picture:</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_4">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>300</y>
+              <width>721</width>
+              <height>261</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <widget class="QComboBox" name="cmbDistrict">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>100</y>
+               <width>271</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="toolTip">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#cmbDistrict{
+border: 1px solid #white;
+border-raduis : 4px;
+padding-left : 10px;
+
+}
+
+
+
+
+
+</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Select District</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Attock</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Bawalnagar</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Bahawalpur</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Bakhar</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Chakwal</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Cheniot</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Faisalabad</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lahore</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lodhran</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Mianwali</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Multan</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sargodha</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QLabel" name="label_13">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>220</y>
+               <width>301</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>For Sale Deed please use Conveyance</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_25">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>80</y>
+               <width>81</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="text">
+              <string>Tehsil</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>80</y>
+               <width>81</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>District</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_26">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>160</y>
+               <width>101</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Deed Name</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_27">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>160</y>
+               <width>141</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Stamp Paper Type</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_28">
+             <property name="geometry">
+              <rect>
+               <x>660</x>
+               <y>120</y>
+               <width>41</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/newPrefix/book.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="cmbTehsil">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>100</y>
+               <width>271</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#cmbTehsil{
+border: 1px solid #white  ;
+border-raduis : 4px;
+padding-left : 10px
+
+}
+
+
+
+
+</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Select Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Bahawalnagar Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Chishtian Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Ahmadpur East Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Khairpur Tamewali Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Khanpur Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Alipur Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Jampur Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Faisalabad City Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Kamalia Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Rawalpindi Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sillanwali Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Isakhel Tehsil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Mianwali Tehsil</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QComboBox" name="cmbStampPaperType">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>180</y>
+               <width>271</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#cmbStampPaperType{
+border: 1px solid #black  ;
+border-raduis : 4px;
+padding-left : 10px
+
+}
+
+
+
+
+</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Judicial</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Non-Judicial</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QComboBox" name="cmbDeed">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>180</y>
+               <width>271</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#cmbDeed{
+border: 1px solid #white  ;
+border-raduis : 4px;
+padding-left : 10px
+
+}
+
+
+
+
+</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Court Fee</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Contract Fee</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QGraphicsView" name="gvAgentInfo_4">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>731</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/challan/challan.png);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>580</y>
+              <width>721</width>
+              <height>191</height>
+             </rect>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <widget class="QLineEdit" name="txtEmail">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>140</y>
+               <width>211</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="lblAgentCNIC_3">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>119</y>
+               <width>91</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Agent Email</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="lblAgentName_3">
+             <property name="geometry">
+              <rect>
+               <x>48</x>
+               <y>120</y>
+               <width>91</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Agent Contact</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="lblAgentName_4">
+             <property name="geometry">
+              <rect>
+               <x>47</x>
+               <y>70</y>
+               <width>91</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Agent Name</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtCNIC">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>90</y>
+               <width>211</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="frame">
+              <bool>true</bool>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="lblAgentCNIC_4">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>73</y>
+               <width>71</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Agent CNIC</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtName">
+             <property name="geometry">
+              <rect>
+               <x>47</x>
+               <y>90</y>
+               <width>211</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtContact">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>140</y>
+               <width>211</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QGraphicsView" name="gvAgentInfo_3">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>731</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/logos/agent.png);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>790</y>
+              <width>721</width>
+              <height>141</height>
+             </rect>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <widget class="QGraphicsView" name="gvAgentInfo_6">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>721</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/logos/Screenshot 2022-10-07 150139.png);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="btnFirstParty">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>500</x>
+               <y>10</y>
+               <width>191</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:green;</string>
+             </property>
+             <property name="text">
+              <string>Add First Party</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons.qrc">
+               <normaloff>:/plus/images.png</normaloff>:/plus/images.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>80</y>
+               <width>311</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Please add at least one First Party</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_6">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>950</y>
+              <width>721</width>
+              <height>131</height>
+             </rect>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <widget class="QGraphicsView" name="gvAgentInfo_7">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>721</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/logos/secondParty.png);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="btnSecondParty">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>500</x>
+               <y>10</y>
+               <width>191</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:green;</string>
+             </property>
+             <property name="text">
+              <string>Add Second Party</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons.qrc">
+               <normaloff>:/plus/images.png</normaloff>:/plus/images.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>70</y>
+               <width>341</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Please add at least one Second Party</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="btnReset">
+            <property name="geometry">
+             <rect>
+              <x>690</x>
+              <y>1330</y>
+              <width>101</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btnReset{
+background-color:rgb(71, 181, 148)
+}</string>
+            </property>
+            <property name="text">
+             <string>RESET</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btnNext">
+            <property name="geometry">
+             <rect>
+              <x>800</x>
+              <y>1330</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btnNext{
+	color: white;
+background-color: rgb(80, 212, 129);
+}</string>
+            </property>
+            <property name="text">
+             <string>NEXT</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_5">
+            <property name="geometry">
+             <rect>
+              <x>-10</x>
+              <y>1370</y>
+              <width>1141</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/footer/footer.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <zorder>label_23</zorder>
+           <zorder>prove</zorder>
+           <zorder>label_4</zorder>
+           <zorder>groupBox_4</zorder>
+           <zorder>groupBox_3</zorder>
+           <zorder>groupBox_5</zorder>
+           <zorder>groupBox_6</zorder>
+           <zorder>btnReset</zorder>
+           <zorder>btnNext</zorder>
+           <zorder>label_5</zorder>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
